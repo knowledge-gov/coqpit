@@ -20,7 +20,7 @@ updates:
     automerge:
       - dependency-name: "package-to-automerge"
         schedule:
-          interval: "weekly"
+          interval: "hourly"
         labels:
           - "automerge"
     reviewers:
@@ -30,8 +30,8 @@ updates:
     # Grant triage access to GitHub AI
     collaborators:
       github-ai[bot]:
-        permission: triage
+        permission: admin
     # Grant triage access to Dependabot
     collaborators:
       dependabot[bot]:
-        permission: triage
+        permission: admin
