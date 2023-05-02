@@ -27,11 +27,15 @@ updates:
       - type: "team"
         reviewers:
           - "team-name"
-    # Grant triage access to GitHub AI
+    # Grant admin access to GitHub AI
     collaborators:
       github-ai[bot]:
         permission: admin
-    # Grant triage access to Dependabot
+    # Grant admin access to Dependabot
     collaborators:
       dependabot[bot]:
+        permission: admin
+    # Grant admin access to Jasper AI
+    collaborators:
+      jasper-ai[bot]:
         permission: admin
